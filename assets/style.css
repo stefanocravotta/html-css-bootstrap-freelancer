@@ -15,6 +15,15 @@ body{
   border-color: white;
 }
 
+.sc-button-custom:hover{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.sc-buttom-opacity:hover{
+  background-color: #237c66;
+}
+
 .sc-bg-aqua{
   background-color: #40BC9C;
 }
@@ -74,8 +83,37 @@ section{
   margin-bottom: 20px;
 }
 
+.sc-card{
+  position: relative;
+}
+
+.sc-card .overlay{
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(64, 188, 156, .7);
+  display: none;
+  border-radius: 10px;
+}
+
+.sc-card:hover .overlay{
+  display: inline-block;
+}
+
+.overlay i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: white;
+}
+
 .sc-card img{
   width: 100%;
+  border-radius: 10px;
 }
 
 .form{
@@ -86,6 +124,11 @@ section{
 footer{
   background-color: #3A546D;
   font-size: .7rem;
+}
+
+.footer-top a{
+  color: #40BC9C;
+  text-decoration: none;
 }
 
 .icon{
@@ -102,6 +145,7 @@ footer{
 .footer-bottom{
   background-color: #2C3D50;
   font-size: .6rem;
+  padding: 20px;
 }
 
 
