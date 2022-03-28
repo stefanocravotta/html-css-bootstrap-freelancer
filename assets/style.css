@@ -71,7 +71,6 @@ header{
   width: 200px;
 }
 
-
 /* MAIN */
 
 section{
@@ -148,7 +147,6 @@ footer{
   padding: 20px;
 }
 
-
 /* MEDIAQUERY */
 
 @media screen and (max-width:576px){
@@ -156,7 +154,6 @@ footer{
     font-size: .8rem;
   }
 }
-
 
 /* DEBUG */
 
