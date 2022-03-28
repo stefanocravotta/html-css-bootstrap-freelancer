@@ -42,8 +42,8 @@ section{
   margin-bottom: 20px;
 }
 
-.sc-card{
-  height: 250px;
+.sc-card img{
+  width: 100%;
 }
 
 .form{
