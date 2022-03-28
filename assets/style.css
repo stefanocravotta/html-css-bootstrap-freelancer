@@ -19,6 +19,11 @@ body{
   background-color: #40BC9C;
 }
 
+.sc-border-bottom{
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
 /* HEADER */
 
 header{
