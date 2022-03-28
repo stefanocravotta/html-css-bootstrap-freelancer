@@ -11,21 +11,46 @@
 </head>
 <body>
 
-  <header class="debug d-flex align-items-center">
-    <div class="container debug">
-      <div class="row debug">
-        <div class="col-6 col-sm-4 debug">Logo</div>
-        <div class="col-md-4 offset-sm-4 debug d-none d-sm-none d-md-block">Menu</div>
-        <div class="col-6 col-sm-4 offset-sm-4 debug d-block d-md-none text-end">Hamburgher</div>
-      </div>
+  <header class="fixed-top">
+    <div class="container-sm d-flex align-items-center h-100">
+      <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-white" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
+              <li class="nav-item">
+                <a class="nav-link active  text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active  text-white" aria-current="page" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active  text-white" aria-current="page" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
+    
   </header>
 
   <div class="jumbotron debug d-flex justify-content-center align-items-center">
-    <div class="box-img debug"></div>
+    <div class="box-img debug d-flex justify-content-center align-items-center flex-column text-white">
+      <img src="assets/img/avatar.svg" alt="smile">
+      <h1>START BOOTSTRAP</h1>
+      <div class="star"></div>
+      <div class="description">
+        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+      </div>
+    </div>
   </div>
 
   <main class="debug text-center">
+    <!-- PORTFOLIO -->
     <section id="portfolio" class="container debug">
       <div class="row debug">
         <div class="col-12">
@@ -33,16 +58,29 @@
         </div>
       </div>
       <div id="icon-box" class="row">
-        <div class="col-12 col-md-6 col-4-lg debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis aliquam, quibusdam atque officia repellat odio alias nihil voluptates tempore accusamus odit est iste et totam tempora assumenda labore fuga dignissimos. Vero fuga corporis minus, sapiente consequuntur voluptas rem quos reiciendis, quas itaque ratione ipsum nisi aliquid. Dolor, dolorum vel.</div>
-        <div class="col-12 col-sm-12 col-md-6 col-4-lg debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis aliquam, quibusdam atque officia repellat odio alias nihil voluptates tempore accusamus odit est iste et totam tempora assumenda labore fuga dignissimos. Vero fuga corporis minus, sapiente consequuntur voluptas rem quos reiciendis, quas itaque ratione ipsum nisi aliquid. Dolor, dolorum vel.</div>
-        <div class="col-12 col-sm-12 col-md-6 col-4-lg debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis aliquam, quibusdam atque officia repellat odio alias nihil voluptates tempore accusamus odit est iste et totam tempora assumenda labore fuga dignissimos. Vero fuga corporis minus, sapiente consequuntur voluptas rem quos reiciendis, quas itaque ratione ipsum nisi aliquid. Dolor, dolorum vel.</div>
-        <div class="col-12 col-sm-12 col-md-6 col-4-lg debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis aliquam, quibusdam atque officia repellat odio alias nihil voluptates tempore accusamus odit est iste et totam tempora assumenda labore fuga dignissimos. Vero fuga corporis minus, sapiente consequuntur voluptas rem quos reiciendis, quas itaque ratione ipsum nisi aliquid. Dolor, dolorum vel.</div>
-        <div class="col-12 col-sm-12 col-md-6 col-4-lg debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis aliquam, quibusdam atque officia repellat odio alias nihil voluptates tempore accusamus odit est iste et totam tempora assumenda labore fuga dignissimos. Vero fuga corporis minus, sapiente consequuntur voluptas rem quos reiciendis, quas itaque ratione ipsum nisi aliquid. Dolor, dolorum vel.</div>
-        <div class="col-12 col-sm-12 col-md-6 col-4-lg debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis aliquam, quibusdam atque officia repellat odio alias nihil voluptates tempore accusamus odit est iste et totam tempora assumenda labore fuga dignissimos. Vero fuga corporis minus, sapiente consequuntur voluptas rem quos reiciendis, quas itaque ratione ipsum nisi aliquid. Dolor, dolorum vel.</div>
+        <div class="col-12 col-md-6 col-lg-4 debug">
+          <div class="sc-card debug">ciao</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 debug">
+          <div class="sc-card debug">ciao</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 debug">
+          <div class="sc-card debug">ciao</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 debug">
+          <div class="sc-card debug">ciao</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 debug">
+          <div class="sc-card debug">ciao</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 debug">
+          <div class="sc-card debug">ciao</div>
+        </div>
       </div>
     </section>
-    <section id="about" class="container debug">
-      <div class="container debug">
+    <!-- ABOUT -->
+    <section id="about" class="sc-container debug">
+      <div class="container-fluid debug">
         <div class="row">
           <div class="col-12">
             <h2>ABOUT</h2>
@@ -54,9 +92,9 @@
         </div>
       </div>
     </section>
-    <section id="contact_me">
-      <div class="container">
-        <div class="container">
+    <!-- CONTACT -->
+    <section id="contact" class="sc-container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-12">
               <h2>CONTACT ME</h2>
@@ -64,23 +102,19 @@
             <div class="debug col-12 form">FORM</div>
           </div>
         </div>
-      </div>
-
     </section>
 
   </main>
 
   <footer class="debug text-center">
-    <div class="footer-top container debug h-100">
-      <div class="container">
+    <div class="footer-top container debug">
         <div class="row">
           <div class="col-12 col-md-4">ciao</div>
           <div class="col-12 col-md-4">ciao</div>
           <div class="col-12 col-md-4">ciao</div>
         </div>
-      </div>
     </div>
-    <div class="footer-bottom debug h-100">
+    <div class="footer-bottom debug">
       <div class="container-fluid">
       <div class="row">
         <div class="col-12">

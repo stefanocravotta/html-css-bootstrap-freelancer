@@ -1,13 +1,20 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  scroll-behavior: smooth;
+  padding-top: 80px;
+}
+
+/* GENERAL */
+
+.sc-container{
+  width: 60%;
+  margin: 20px auto;
 }
 
 /* HEADER */
 
 header{
-  height: 100px;
+  height: 80px;
+  background-color: #2C3D50;
 }
 
 /* JUMBOTRON */
@@ -19,6 +26,9 @@ header{
 .box-img{
   height: 500px;
   width: 700px;
+}
+.box-img img{
+  width: 200px;
 }
 
 /* MAIN */
@@ -32,16 +42,18 @@ section{
   margin-bottom: 20px;
 }
 
+.sc-card{
+  height: 250px;
+}
+
 .form{
   height: 300px;
 }
 /* FOOTER */
 
-footer{
-  height: 100px;
-}
 
 
+/* DEBUG */
 
 .debug{
   background-color: rgba(255, 0, 0, .5);
