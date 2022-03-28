@@ -65,6 +65,15 @@ section{
 }
 /* FOOTER */
 
+footer{
+  background-color: #3A546D;
+  font-size: .7rem;
+}
+
+.footer-bottom{
+  background-color: #2C3D50;
+  font-size: .6rem;
+}
 
 
 /* DEBUG */
