@@ -6,8 +6,17 @@ body{
 /* GENERAL */
 
 .sc-container{
-  width: 60%;
+  width: 70%;
   margin: 20px auto;
+}
+
+.sc-button-custom{
+  background-color: #40BC9C;
+  border-color: white;
+}
+
+.sc-bg-aqua{
+  background-color: #40BC9C;
 }
 
 /* HEADER */
