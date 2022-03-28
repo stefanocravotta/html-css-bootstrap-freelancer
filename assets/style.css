@@ -88,6 +88,17 @@ footer{
   font-size: .7rem;
 }
 
+.icon{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
 .footer-bottom{
   background-color: #2C3D50;
   font-size: .6rem;
